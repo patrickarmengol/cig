@@ -3,7 +3,7 @@ use clap::{Parser, value_parser};
 use image::{Rgba, RgbaImage};
 use std::{path::PathBuf, str::FromStr};
 
-/// Generates an image of specified dimensions from a hex color code
+/// Generate an image of specified dimensions from a hex color code
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {

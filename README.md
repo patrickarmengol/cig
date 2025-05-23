@@ -1,6 +1,6 @@
 # cig
 
-Generates an image of specified dimensions from a hex color code
+Generate an image of specified dimensions from a hex color code
 
 ## Installation
 
