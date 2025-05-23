@@ -5,7 +5,7 @@ use std::{path::PathBuf, str::FromStr};
 
 /// Generate an image of specified dimensions from a hex color code
 #[derive(Parser, Debug)]
-#[command(author, version, about, long_about = None)]
+#[command(version, about, long_about = None)]
 struct Args {
     /// Width of image in pixels
     #[arg(value_parser = value_parser!(u32).range(1..))]

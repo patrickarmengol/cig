@@ -3,6 +3,7 @@ name = "cig"
 description = "Generate an image of specified dimensions from a hex color code"
 version = "0.1.0"
 edition = "2024"
+authors = ["Patrick Armengol <patrickarmengol@protonmail.com>"]
 readme = "README.md"
 documentation = "https://github.com/patrickarmengol/cig"
 homepage = "https://github.com/patrickarmengol/cig"
