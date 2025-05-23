@@ -1,7 +1,14 @@
 [package]
 name = "cig"
+description = "Generate an image of specified dimensions from a hex color code"
 version = "0.1.0"
 edition = "2024"
+readme = "README.md"
+documentation = "https://github.com/patrickarmengol/cig"
+homepage = "https://github.com/patrickarmengol/cig"
+repository = "https://github.com/patrickarmengol/cig"
+license = "MIT OR Apache 2.0"
+
 
 [dependencies]
 clap = { version = "4.5.38", features = ["derive"] }
